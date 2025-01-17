@@ -31,6 +31,7 @@ def main(args):
         return
 
     for filename in infiles:
+
         inflammation_data = models.load_csv(filename)
 
         view_data = {
